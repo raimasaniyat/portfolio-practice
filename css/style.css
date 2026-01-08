@@ -45,11 +45,14 @@ p{
   width: 80%;  
   margin: 0 auto;
 }
+header{
+  background-color: #FFF8F3;
+}
 .navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 0 45px;
+  padding: 50px 0 45px;
 }
 .logo-span{
     color: #FD6E0A;
@@ -78,4 +81,14 @@ button:hover{
   background-color: transparent;
   color: #FD6E0A;
   border: 1px solid #FD6E0A;
+}
+.banner{
+  /* margin: 40px 38px 0 230px; */
+  width: 1170px;
+  margin: 0 auto;
+}
+.banner-parent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
